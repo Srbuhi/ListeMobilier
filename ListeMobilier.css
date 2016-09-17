@@ -1,0 +1,49 @@
+body{
+    margin:0;
+    padding:0;
+    font-size:21px;
+    box-sizing:border-box;
+    }
+.grey{
+    width:99%;
+    height:32px;
+    background-color:lightgrey;
+    margin:0 auto;
+    }
+.white{
+    width:99%;
+    height:32px;
+    background-color:white;
+    margin:0 auto;
+
+    }
+.textfield{
+    background-color:lightgrey;
+    border:transparent;
+    border-bottom:2px dashed black;
+    outline:none;
+
+    }
+.checkbox{
+    margin-left:273px;
+    }
+fieldset{
+    /*position:relative;*/
+    width:90%;
+    margin:0 auto;
+    border:2px solid black;
+    }
+header{
+    width:92%;
+    height:580px;
+    background-color:brown;
+    margin:37px  auto;
+    }
+h4{
+    /*position:absolute;*/
+    width: 102%;
+    height: 30px;
+    background-color: brown;
+    text-align: center;
+    /*right:0;*/
+    }
