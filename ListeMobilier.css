@@ -1,49 +1,339 @@
-body{
-    margin:0;
-    padding:0;
-    font-size:21px;
-    box-sizing:border-box;
-    }
-.grey{
-    width:99%;
-    height:32px;
-    background-color:lightgrey;
-    margin:0 auto;
-    }
-.white{
-    width:99%;
-    height:32px;
-    background-color:white;
-    margin:0 auto;
+.body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;/*this font-size is smaller than the original,22px is bigger*/
 
     }
-.textfield{
-    background-color:lightgrey;
-    border:transparent;
-    border-bottom:2px dashed black;
-    outline:none;
 
+.header{
+    /*width:92%;*/
+    width:100%;
+    /*background-color:brown;*/
+    margin:0  auto;
     }
-.checkbox{
-    margin-left:273px;
+
+    .header_image{
+        margin-left: 124px;
+        display: inline-block;
+        }
+
+    .header_form_label{
+        position: absolute;
+        font-style: italic;
+        font-weight: 600;
+        display: block;
+        }
+
+        .header_form_label-first{
+            top: 87px;
+            right: 80px;
+            }
+
+        .header_form_label-second{
+            top: 159px;
+            right: 78px;
+            }
+
+            .header_form_input{
+                border: transparent;
+                border-bottom: 2px dashed black;
+                outline: none;
+                }
+
+    .header_section{
+        display:inline-block;
+        width: 40%;
+        margin-top: 33px;
+        margin-left: 85px;
+        }
+
+        .header_section_paragraph{
+            margin-bottom: 40px;
+            line-height: 31px;
+            }
+
+    .header_aside{
+
+        display: inline-block;
+        width: 44%;
+        margin-left: 75px;
+        }
+
+            .header_aside_top-color {
+                background-color: lightgrey;
+                height: 66px;
+                text-align: center;
+                }
+            .header_aside_paragraph {
+                margin: 4px;
+                }
+            .header_aside_boldText{
+                font-weight: 600;
+                }
+            .email{
+                margin-right: 55px;
+                }
+            .fax{
+                margin-right: 75px;
+                }
+            .courrier{
+                margin-right: 10px;
+                }
+            .header_aside_paragraph-different{
+                margin-left: 145px;
+                }
+            .header_aside_bottom {
+                margin-left: 78px;
+                }
+
+
+.form_fieldset{
+    width: 1470px;
+    border: 3px solid black;
+    margin: 15px auto;
+    padding-bottom: 1px;
     }
-fieldset{
-    /*position:relative;*/
-    width:90%;
-    margin:0 auto;
-    border:2px solid black;
+
+    .form_fieldset_legend{
+        position: absolute;
+        width: 1520px;
+        line-height: 32px;
+        margin-top: 12px;
+        right: 78px;
+        background-color: brown;
+        text-align: center;
+        color: white;
+        font-weight: 600;
+        }
+
+    .form_fieldset_paragraph{
+        margin-top: 62px;
+        }
+
+    .form_fieldset_row-grey{
+        height: 32px;
+        background-color: lightgrey;
+        }
+    .unique-grey-row{
+
+     }
+    .form_fieldset_row-white{
+        height: 37px;
+        }
+
+    .form_label{
+        display: inline-block;
+        width: 173px;
+        }
+
+        .form_label-1{          /*for the first label in every row in first two blocks*/
+            margin-left: 5px;
+            width: 370px;
+            }
+
+    .form_input{
+       /* margin-left: 35px;*/
+        height: 27px;
+        width: 52px;
+        border: 3px solid black;
+        /*display:inline-block;*/
+        }
+
+    .form_input_checkbox{
+
+        }
+    .unique-grey-row{
+
+        }
+
+    .form_input_checkbox-distant{
+        margin-left: 210px;
+        }
+
+
+.form_input-dashed{
+        border: transparent;
+        border-bottom: 2px dashed black;
+        outline: none;
+        }
+
+        .long-dashed{  /*dashed inputs have different sizes here: long,middle,short*/
+            width: 795px;
+            }
+        .long-dashed-grey{
+            background-color: lightgrey;
+            }
+        .long-dashed-white{
+            background-color: white;
+            }
+
+        .middle-dashed{
+            width: 320px;
+            }
+        .middle-dashed-grey{
+            background-color: lightgrey;
+            }
+        .middle-dashed-white{
+            background-color: white;
+            }
+
+        .short-dashed{
+            width: 75px;
+            }
+        .short-dashed-grey{
+            background-color: lightgrey;
+            }
+
+        .short-dashed-white{
+            background-color: white;
+            }
+
+.for-second-mobilier-block,.paragraph-for-third-block {
+    margin-top: 72px;
     }
-header{
-    width:92%;
-    height:580px;
-    background-color:brown;
-    margin:37px  auto;
+
+.form_fieldset-invisible{           /*fieldset without borders*/
+    border: none;
+    padding-top: 0;
+    padding-bottom: 3px;
     }
-h4{
-    /*position:absolute;*/
-    width: 102%;
-    height: 30px;
-    background-color: brown;
+
+.form_fieldset_legend-short{       /*legend width  grey background*/
+    position: absolute;
     text-align: center;
-    /*right:0;*/
+    left: 57px;
+    width: 430px;
+    height: 32px;
+    background-color: #999999;
+    font-weight: 600;
+    }
+
+.form_fieldset_row-white-thirdBlock{
+    margin-top: 36px;
+    }
+
+.form_fieldset-objetsVolumineux{
+    border: none;
+    margin-top: 65px;
+    display: inline-block;
+    }
+
+.objetsVolumineux-dashed{
+    width: 195px;
+    }
+
+.distance{
+    margin-left: 25px;
+    }
+
+.form_fieldset-invisible-précisions{
+    margin-top: 75px;
+    }
+
+.form_fieldset_legend-précisions-short{
+    font-weight: 600;
+    }
+
+.form_fieldset_input-précisions{
+    display: inline-block;
+    }
+
+.form_fieldset_input-précisions-distance{
+    margin-top: 15px;
+    }
+
+.form_fieldset_input-précisions-right{
+    margin-left: 148px;
+    }
+
+.fieldset_précisions_paragraph-1 {
+    display: inline-block;
+    font-weight: 600;
+    }
+
+.fieldset_précisions_label{
+    display: inline-block;
+    margin-left: 227px;
+    }
+
+.fieldset_précisions_paragraph-2{
+    font-weight: 600;
+    margin-top: 35px;
+    }
+.fieldset_précisions_span_important {
+    margin-left: 85px;
+    }
+
+.line-separator{
+    height: 1px;
+    border-top: 1px solid black;
+    margin:40px auto;
+    background-color: lightgrey;
+    }
+
+.form_fieldset-invisible-marginTop{
+    margin-top: 120px;
+    }
+
+.fieldset_précisions_span_vosObservations{
+    margin-left: 460px;
+    }
+
+.form_fieldset_précisions_textarea{
+    margin-top: 35px;
+    line-height: 30px;
+    resize: none;
+    }
+
+.label-signature{
+    margin-top:50px;
+    margin-left: 400px;
+    }
+
+.long-dashed-signature{
+    width: 77%;
+    }
+.footer{
+    padding-bottom: 195px;
+    }
+
+.footer_section{
+    display: inline-block;
+    margin-top: 61px;
+    margin-left: 310px;
+    text-align: right;
+    font-size: 18px;
+    color: grey;
+    }
+
+.footer_section_paragraph{
+    margin-top: 0;
+    margin-bottom: 0;
+    }
+
+.footer_aside{
+    display: inline-block;
+    margin-left: 50px;
+    width: 250px;
+    height: 100px;
+    background-color: #523786;
+    }
+
+.legend_triangle {
+    position:absolute;
+    top: 22px;
+    left: 8px;
+    width:0;
+    height:0;
+    border-top: 15px solid transparent;
+    border-bottom:15px solid transparent;
+    transform: rotate(-45deg);
+    }
+
+.legend_triangle-brown {
+    border-left : 15px solid #6c1b1b;
+    }
+
+.legend_triangle-grey{
+    border-left : 15px solid #616161;
     }
