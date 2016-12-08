@@ -1,339 +1,560 @@
 .body{
     margin: 0;
     padding: 0;
-    font-size: 20px;/*this font-size is smaller than the original,22px is bigger*/
-
+    font-family: helvetica,sans-serif;
+    font-size: 22px;
     }
 
-.header{
-    /*width:92%;*/
-    width:100%;
-    /*background-color:brown;*/
-    margin:0  auto;
-    }
+    .header{
+        width:100%;
+        margin:0  auto;
+        }
 
-    .header_image{
-        margin-left: 124px;
+    .logo-container {
+        margin-left: 116px;
         display: inline-block;
         }
 
-    .header_form_label{
+    .header-label {
         position: absolute;
         font-style: italic;
         font-weight: 600;
         display: block;
         }
 
-        .header_form_label-first{
+        .header-label--first {
             top: 87px;
-            right: 80px;
+            right: 116px;
             }
 
-        .header_form_label-second{
-            top: 159px;
-            right: 78px;
+        .header-label--second {
+            top: 157px;
+            right: 116px;
             }
 
-            .header_form_input{
-                border: transparent;
-                border-bottom: 2px dashed black;
-                outline: none;
-                }
-
-    .header_section{
-        display:inline-block;
-        width: 40%;
-        margin-top: 33px;
-        margin-left: 85px;
-        }
-
-        .header_section_paragraph{
-            margin-bottom: 40px;
-            line-height: 31px;
-            }
-
-    .header_aside{
-
-        display: inline-block;
-        width: 44%;
-        margin-left: 75px;
-        }
-
-            .header_aside_top-color {
-                background-color: lightgrey;
-                height: 66px;
-                text-align: center;
-                }
-            .header_aside_paragraph {
-                margin: 4px;
-                }
-            .header_aside_boldText{
-                font-weight: 600;
-                }
-            .email{
-                margin-right: 55px;
-                }
-            .fax{
-                margin-right: 75px;
-                }
-            .courrier{
-                margin-right: 10px;
-                }
-            .header_aside_paragraph-different{
-                margin-left: 145px;
-                }
-            .header_aside_bottom {
-                margin-left: 78px;
-                }
-
-
-.form_fieldset{
-    width: 1470px;
-    border: 3px solid black;
-    margin: 15px auto;
-    padding-bottom: 1px;
-    }
-
-    .form_fieldset_legend{
-        position: absolute;
-        width: 1520px;
-        line-height: 32px;
-        margin-top: 12px;
-        right: 78px;
-        background-color: brown;
-        text-align: center;
-        color: white;
-        font-weight: 600;
-        }
-
-    .form_fieldset_paragraph{
-        margin-top: 62px;
-        }
-
-    .form_fieldset_row-grey{
-        height: 32px;
-        background-color: lightgrey;
-        }
-    .unique-grey-row{
-
-     }
-    .form_fieldset_row-white{
-        height: 37px;
-        }
-
-    .form_label{
-        display: inline-block;
-        width: 173px;
-        }
-
-        .form_label-1{          /*for the first label in every row in first two blocks*/
-            margin-left: 5px;
-            width: 370px;
-            }
-
-    .form_input{
-       /* margin-left: 35px;*/
-        height: 27px;
-        width: 52px;
-        border: 3px solid black;
-        /*display:inline-block;*/
-        }
-
-    .form_input_checkbox{
-
-        }
-    .unique-grey-row{
-
-        }
-
-    .form_input_checkbox-distant{
-        margin-left: 210px;
-        }
-
-
-.form_input-dashed{
+    .header-input {
         border: transparent;
         border-bottom: 2px dashed black;
         outline: none;
         }
 
-        .long-dashed{  /*dashed inputs have different sizes here: long,middle,short*/
-            width: 795px;
+    .header-left {
+        display:inline-block;
+        width: 40%;
+        margin-top: 37px;
+        margin-left: 114px;
+        font-size: 25px
+        }
+
+    .site-description {
+        margin-bottom: 40px;
+        }
+
+    .header-right {
+        display: inline-block;
+        width: 43%;
+        margin-left: 45px;
+        font-size: 25px
+        }
+
+    .header-grey-line {
+        background-color: lightgrey;
+        height: 66px;
+        text-align: center;
+        }
+    .header-text {
+        margin: 6px;
+        }
+
+
+    .bold-text {
+        font-weight: 600;
+        }
+        .bold-text--email {
+            margin-right: 55px;
             }
-        .long-dashed-grey{
+        .bold-text--fax {
+            margin-right: 77px;
+            }
+        .bold-text--courrier {
+            margin-right: 15px;
+            }
+        .header-text--nantes {
+            margin-left: 145px;
+            }
+        .tel-number-container {
+            margin-left: 78px;
+            }
+
+    .link{
+        text-decoration: none;
+        color :black;
+        }
+
+    .img-tel{
+        position: absolute;
+        }
+
+    .main-form {
+        position: absolute;
+        left: 106px;
+        top: 525px;
+        }
+
+
+    .list {
+        margin:0;
+        padding:0;
+        }
+
+        .list__item {
+            list-style-type:none;
+            }
+        .list__objets-volumineux {
+            border: none;
+            margin-top: 65px;
+            display: inline-block;
+            padding:0;
+            }
+
+            .list__objets-volumineux--middle-col{
+                margin-left: 125px;
+                }
+
+            .list__objets-volumineux--right-col{
+                margin-left: 20px;
+                }
+        .list--precisions {
+            display: inline-block;
+            }
+
+        .list__item--top-distance {
+            margin-top: 13px;
+            }
+
+        .list--precision--right {
+            margin-left: 153px;
+            }
+
+        .text--precisions--comment {
+            display: inline-block;
+            font-weight: 600;
+            margin-top: 17px;
+            }
+
+        .list--top-distance{
+            margin-top: 72px;
+            }
+
+
+
+.fieldset {
+        max-width: 1406px;
+        border: 3px solid black;
+        padding-bottom: 8px;
+        }
+
+        .fieldset--mobilier-1,.fieldset--mobilier-2{
+            margin: 76px auto;
+            }
+
+        .fieldset--contenu{
+
+            }
+
+        .fieldset--objets-volumineux{
+            margin-top: 26px;
+            }
+
+        .fieldset--precisions {
+            margin-top: 24px;
+            }
+
+        .fieldset__legend {
+            position: absolute;
+            width: 101%; /*1461px*/
+            line-height: 32px;
+            margin-top: 12px;
+            right: 3px;
+            background-color: brown;
+            text-align: center;
+            color: white;
+            font-size: 27px;
+            font-weight: 600;
+            }
+
+
+    .text {
+        margin-left: 10px;
+        }
+
+        .text--first-fieldset{
+            margin-top: 65px;
+            margin-bottom: 20px;
+            }
+
+        .text--third-fieldset--row1{
+            margin-top: 53px;
+            margin-bottom:0;
+            }
+
+        .text--third-fieldset--row2{
+            margin-top: 3px;
+            }
+
+        .grey-row {
+            height: 33px;
             background-color: lightgrey;
             }
-        .long-dashed-white{
-            background-color: white;
+
+        .white-row {
+            height: 36px;
+            }
+            .white-row--third-fieldset {
+                margin-top: 36px;
+                }
+
+
+    .input {
+        height: 27px;
+        width: 52px;
+        border: 3px solid black;
+        text-align: center;
+        }
+
+        .input--first-column {
+            margin-left :32px;
             }
 
-        .middle-dashed{
-            width: 320px;
-            }
-        .middle-dashed-grey{
-            background-color: lightgrey;
-            }
-        .middle-dashed-white{
-            background-color: white;
+        .input--second-column {
+            margin-left:0;
             }
 
-        .short-dashed{
-            width: 75px;
-            }
-        .short-dashed-grey{
-            background-color: lightgrey;
+        .input--third-column {
+            margin-left:0;
             }
 
-        .short-dashed-white{
-            background-color: white;
+        .input--fourth-column {
+            margin-left:0;
             }
 
-.for-second-mobilier-block,.paragraph-for-third-block {
-    margin-top: 72px;
+
+        .input__label {
+            display: inline-block;
+            width: 166px;
+            }
+
+        .input__label--left-column {
+            margin-left: 5px;
+            width: 370px;
+            }
+
+
+
+        .dashed-input {
+            border: transparent;
+            border-bottom: 2px dashed black;
+            outline: none;
+            text-align: center;
+            }
+
+            .dashed-input--long {
+                width: 690px;
+                }
+
+            .dashed-input--middle {
+                width: 175px;
+                }
+
+            .dashed-input--short {
+                width: 85px;
+                }
+            .dashed-input--grey {
+                background-color: lightgrey;
+                    }
+            .dashed-input--white {
+                background-color: white;
+                            }
+            .dashed-input--objets-volumineux {
+                width: 175px;
+                }
+            .dashed-input--signature{
+                width: 90%;
+                }
+
+
+
+    .invisible-fieldset {
+        border: none;
+        padding-top: 0;
+        padding-bottom: 3px;
+        padding-left:0;
+        }
+
+        .invisible-fieldset__legend {
+            position: absolute;
+            text-align: center;
+            left: -18px;  /*right: 1017px;*/
+            width: 31%;  /*446px*/
+            height: 30px;
+            background-color: #a4a4a4;
+            font-weight: 600;
+            }
+
+            .invisible-fieldset__legend--precisions {
+                font-weight: 600;
+                margin-left: 4px;
+                }
+        .invisible-fieldset--precisions {
+            margin-top: 75px;
+            }
+        .invisible-fieldset--precisions--important{
+            margin-top: 27px;
+            }
+        .invisible-fieldset--observations {
+            margin-top: 120px;
+            }
+
+
+    .label-poids{ margin-left: 25px;}
+    .label-cylindre{margin-left: 51px;}
+    .label-dim-1{margin-left: 51px;}
+    .label-dim-2{margin-left: 51px;}
+    .label-dim-3{margin-left: 70px;}
+    .label-dim-4{margin-left: 82px;}
+
+    .precisions-label {
+        display: inline-block;
+        margin-left: 279px;
+        }
+
+    .text--precisions--avez {
+        font-weight: 600;
+        margin-top: 32px;
+        margin-bottom: 4px;
+        display: block;
+        }
+    .text--precisions--si {
+        margin-left: 98px;
+        }
+    .text--precisions--objets {
+        margin-left: 474px;
+        }
+
+
+    .line-separator{
+        width: 99%;
+        height: 1px;
+        border-top: 1px solid black;
+        margin:40px auto;
+        background-color: lightgrey;
+        }
+
+    .page-textarea {
+        margin-top: 32px;
+        line-height: 30px;
+        resize: none;
+        border: none;
+        width: 99%;
+        outline: none;
+        font-size: 18px;
+        }
+
+    .textarea-bg{
+        background-image: url("img/background.png");
+        background-repeat: repeat;
+        }
+
+    .signature {
+        margin-top: 42px;
+        margin-left: 316px;
+        }
+
+
+    .footer{
+        position: absolute;
+        top: 6030px;
+        left: 129px;
+        padding-bottom:200px;
+        }
+
+    .footer-left {
+        display: inline-block;
+        margin-top: 61px;
+        margin-left: 310px;
+        text-align: right;
+        font-size: 18px;
+        color: grey;
+        }
+
+    .footer-text {
+        display: block;
+        }
+
+    .footer-right {
+        display: inline-block;
+        margin-left: 50px;
+        width: 250px;
+
+        }
+    .footer-img{
+        position: absolute;
+        }
+
+        .footer-img--left{
+            top: 49px;
+            left: 1138px;
+            }
+        .footer-img--right{
+            left: 1291px;
+            top: 41px;
+            }
+
+    .relative-row {
+        position: relative;
+        }
+
+    .checkbox {
+        position: absolute;
+        top: 8px;
     }
 
-.form_fieldset-invisible{           /*fieldset without borders*/
-    border: none;
-    padding-top: 0;
-    padding-bottom: 3px;
-    }
+        .checkbox--marbre,.checkbox--cuir{right:109px;}
+        .checkbox--bois{left: 494px;}
+        .checkbox--fonte{left: 589px;}
+        .checkbox--metallique{left: 729px;}
+        .checkbox--bois--2{right: 338px;}
+        .checkbox--laque{right: 216px;}
+        .checkbox--vernis{right: 108px;}
+        .checkbox--dessus--marbre{left: 505px;}
 
-.form_fieldset_legend-short{       /*legend width  grey background*/
-    position: absolute;
-    text-align: center;
-    left: 57px;
-    width: 430px;
-    height: 32px;
-    background-color: #999999;
-    font-weight: 600;
-    }
+        .checkbox__label{
+            position: absolute;
+            top: 4px;
+            }
 
-.form_fieldset_row-white-thirdBlock{
-    margin-top: 36px;
-    }
+            .checkbox__label--marbre{right: 23px;}
+            .checkbox__label--cuir{right: 60px;}
+            .checkbox__label--bois{left: 522px; top: 2px;}
+            .checkbox__label--fonte{left: 618px;}
+            .checkbox__label--metallique{left: 759px; top: 2px;}
+            .checkbox__label--bois--2{right: 286px; top: 2px;}
+            .checkbox__label--laque{right: 144px;   top: 2px;}
+            .checkbox__label--vernis{right: 36px;   top: 2px;}
+            .checkbox__label--dessus-marbre{left: 535px;}
 
-.form_fieldset-objetsVolumineux{
-    border: none;
-    margin-top: 65px;
-    display: inline-block;
-    }
+    .word-cadre{
+        position: absolute;
+        top: 3px;
+        left: 420px;
+        }
 
-.objetsVolumineux-dashed{
-    width: 195px;
-    }
+    .word-structure{
+        position: absolute;
+        top: 3px;
+        right: 300px;
+        }
 
-.distance{
-    margin-left: 25px;
-    }
 
-.form_fieldset-invisible-précisions{
-    margin-top: 75px;
-    }
 
-.form_fieldset_legend-précisions-short{
-    font-weight: 600;
-    }
+    .triangle {
+        position:absolute;
+        width:0;
+        height:0;
+        border-top: 15px solid transparent;
+        border-bottom:15px solid transparent;
+        transform: rotate(-45deg);
+        }
 
-.form_fieldset_input-précisions{
-    display: inline-block;
-    }
+        .triangle--1{
+            top: -77px;
+            left: -32px;
+            }
+        .triangle--2{
+            top: -38px;
+            left: -32px;
+            }
+        .triangle--3{
+            top: -132px;
+            left: -34px;
+            }
+        .triangle--4,.triangle--5,.triangle--6,.triangle--7{
+            top: -16px;
+            left: -34px;
+            }
+        .triangle--8{
+            top: -31px;
+            left: -32px;
+            }
+        .triangle--9{
+            top: -80px;
+            left: -34px;
+            }
+        .triangle--10{
+            top: 205px;
+            left: -34px;
+            }
+        .triangle--11{
+            top: 458px;
+            left: -34px;
+            }
 
-.form_fieldset_input-précisions-distance{
-    margin-top: 15px;
-    }
+        .triangle--brown {
+            border-left : 15px solid #6c1b1b;
+            }
 
-.form_fieldset_input-précisions-right{
-    margin-left: 148px;
-    }
+        .triangle--grey {
+            border-left : 15px solid #616161;
+            }
 
-.fieldset_précisions_paragraph-1 {
-    display: inline-block;
-    font-weight: 600;
-    }
 
-.fieldset_précisions_label{
-    display: inline-block;
-    margin-left: 227px;
-    }
+    @media only screen and (max-width: 1560px){
 
-.fieldset_précisions_paragraph-2{
-    font-weight: 600;
-    margin-top: 35px;
-    }
-.fieldset_précisions_span_important {
-    margin-left: 85px;
-    }
+        .body{font-size:18px;}
+        .logo{width:90%;}
+        .header-left{font-size:22px;}
+        .header-right{font-size:22px;}
+        .grey-row{height:31px;}
+        .white-row{height:34px;}
+        .input{width:50px; height:25px;}
+        .input__label--left-column{width: 276px;}
+        .signature{margin-left:100px;}
+        .footer{top:5755px;}
+        .footer-left{margin-left:100px;}
+        .footer-img--left{left: 940px;}
+        .footer-img--right{left: 1123px;}
 
-.line-separator{
-    height: 1px;
-    border-top: 1px solid black;
-    margin:40px auto;
-    background-color: lightgrey;
-    }
+        .triangle--1{
+            top: -72px;
+            left: -29px;
+            }
+        .triangle--2{
+            top: -38px;
+            left: -28px;
+            }
+        .triangle--3{
+            top: -118px;
+            left: -31px;
+            }
+        .triangle--4,.triangle--5,.triangle--6,.triangle--7{
+            top: -16px;
+            left: -31px;
+            }
+        .triangle--8{
+            top: -31px;
+            left: -29px;
+            }
+        .triangle--9{
+            top: -75px;
+            left: -31px;
+            }
+        .triangle--10{
+            top: 187px;
+            left: -31px;
+            }
+        .triangle--11{
+            top: 430px;
+            left: -31px;
+            }
 
-.form_fieldset-invisible-marginTop{
-    margin-top: 120px;
-    }
-
-.fieldset_précisions_span_vosObservations{
-    margin-left: 460px;
-    }
-
-.form_fieldset_précisions_textarea{
-    margin-top: 35px;
-    line-height: 30px;
-    resize: none;
-    }
-
-.label-signature{
-    margin-top:50px;
-    margin-left: 400px;
-    }
-
-.long-dashed-signature{
-    width: 77%;
-    }
-.footer{
-    padding-bottom: 195px;
-    }
-
-.footer_section{
-    display: inline-block;
-    margin-top: 61px;
-    margin-left: 310px;
-    text-align: right;
-    font-size: 18px;
-    color: grey;
-    }
-
-.footer_section_paragraph{
-    margin-top: 0;
-    margin-bottom: 0;
-    }
-
-.footer_aside{
-    display: inline-block;
-    margin-left: 50px;
-    width: 250px;
-    height: 100px;
-    background-color: #523786;
-    }
-
-.legend_triangle {
-    position:absolute;
-    top: 22px;
-    left: 8px;
-    width:0;
-    height:0;
-    border-top: 15px solid transparent;
-    border-bottom:15px solid transparent;
-    transform: rotate(-45deg);
-    }
-
-.legend_triangle-brown {
-    border-left : 15px solid #6c1b1b;
-    }
-
-.legend_triangle-grey{
-    border-left : 15px solid #616161;
-    }
+        }
